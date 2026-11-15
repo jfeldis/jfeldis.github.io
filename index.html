@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>home-auto</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 42rem; margin: 4rem auto; padding: 0 1.5rem; line-height: 1.6; }
+  .card { border: 1px solid #4444; border-radius: 16px; padding: 2rem; background: #ffffff0d; }
+  h1 { display: flex; align-items: center; gap: .75rem; }
+  .mark { width: 2.6rem; height: 2.6rem; border-radius: .6rem; background: #2563eb; display: inline-grid; place-items: center; color: #fff; font-weight: 700; }
+  a { color: #2563eb; }
+  code { background: #4444; border-radius: 4px; padding: .1em .35em; font-size: .9em; }
+  footer { font-size: .85rem; opacity: .7; margin-top: 2rem; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1><span class="mark">h</span> home-auto</h1>
+    <p><strong>What this is:</strong> home-auto is a personal smart-home
+    automation project. It reads state and issues simple commands
+    (e.g. thermostat setpoints) for Google Nest devices in the owner's
+    home, using the official Google <em>Smart Device Management API</em>.</p>
+    <p><strong>Who runs it:</strong> A private home-automation setup operated
+    by the account owner. It is not offered to the public, is not a
+    commercial service, and is not distributed as an app.</p>
+    <p><strong>Data handling:</strong> home-auto does not collect, store, or
+    transmit any personal data beyond the OAuth flow with Google itself.
+    Device state is only fetched by the owner to operate their own home.
+    See the <a href="/privacy.html">privacy notice</a>.</p>
+    <p><strong>Contact / support:</strong>
+    <a href="mailto:jfeldis@gmail.com">jfeldis@gmail.com</a></p>
+  </div>
+  <footer>&copy; 2026 &middot; home-auto &middot;
+    <a href="/privacy.html">Privacy</a></footer>
+</body>
+</html>
